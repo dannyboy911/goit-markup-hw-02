@@ -16,6 +16,7 @@ body {
 }
 
 .header {
+  display: inline-block;
   width: 1440px;
   height: 72px;
   flex-grow: 0;
@@ -183,6 +184,11 @@ li a {
   color: var(--slate);
 }
 
+.company-occupation img {
+  width: 360px;
+  height: 300px;
+}
+
 .company-occupation h2 {
   font-family: var(--font-family);
   font-weight: 700;
@@ -234,6 +240,11 @@ li a {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--slate);
+}
+
+.team-box img {
+  width: 264px;
+  height: 260px;
 }
 
 footer p {
