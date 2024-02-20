@@ -178,6 +178,11 @@ ul li a {
   color: var(--slate);
 }
 
+.filter-images img {
+  width: 360px;
+  height: 300px;
+}
+
 footer p {
   font-family: var(--font-family);
   font-weight: 400;
