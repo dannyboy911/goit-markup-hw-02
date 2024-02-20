@@ -16,7 +16,9 @@ body {
 }
 
 .header {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 1440px;
   height: 72px;
   flex-grow: 0;
